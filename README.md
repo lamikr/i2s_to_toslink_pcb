@@ -1,8 +1,10 @@
 I2S to Toslink PCB
 
-Kicad 7.0 schematic and PCB project which purpose is to create a PCB that
+Kicad 7.0 schematic and PCB project for PCB that
 can generate optical AES/EBU signal for Toslink audio adapter. PCB uses the
 WM8805 chipset as a codec for transforming the signal from I2S to AES/EBU Toslink.
+
+![ 3D layout of PCB](docs/pcb/i2s_to_toslink_pcb.png) 
 
 PCB has following input pins:
 - 5V power
@@ -18,3 +20,5 @@ MCLK and that is hearable as a small errors and cracks on audio.
 
 Project will also need the firmware for ATmega chip so that it can configure the PLL generator
 and WM8805 over I2C lines to right mode.
+
+[Schematics in PDF document](./docs/schematics/schematics.pdf)
