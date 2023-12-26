@@ -685,6 +685,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid c9cb078b-8a3a-4968-9650-2df44dae457a)
   )
+  (text_box "3V3 LDO"
+    (at 19.05 67.945 0) (size 113.03 39.37)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid fdaab1fd-d0be-4687-8990-c5c1e035b10e)
+  )
 
   (text "MCLK signal not needed with echo dot" (at 74.295 54.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
