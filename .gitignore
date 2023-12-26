@@ -1,3 +1,4 @@
 i2s_to_toslink_pcb-backups
 *.bak
 *.lck
+*.backup
