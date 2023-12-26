@@ -5,8 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "I2S Audio to AES/EBU Optical Toslink")
     (date "2023-12-26")
     (rev "v0.1")
+    (company "Mika Laitio")
   )
 
   (lib_symbols
