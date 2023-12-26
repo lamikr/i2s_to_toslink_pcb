@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lamikr_WM8805GEDS_V")(type "KiCad")(uri "${KIPRJMOD}/component_library/symbols/WM8805GEDS_V.kicad_sym")(options "")(descr ""))
+  (lib (name "lamikr_CDCE906PWR")(type "KiCad")(uri "${KIPRJMOD}/component_library/symbols/CDCE906PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "lamikr_MCU_Microchip_ATmega")(type "KiCad")(uri "${KIPRJMOD}/component_library/symbols/MCU_Microchip_ATmega.kicad_sym")(options "")(descr ""))
+  (lib (name "lamikr_FCR684204T")(type "KiCad")(uri "${KIPRJMOD}/component_library/symbols/FCR684204T.kicad_sym")(options "")(descr ""))
+  (lib (name "lamikr_tlv709")(type "KiCad")(uri "${KIPRJMOD}/component_library/symbols/tlv709_sot23_fixed.kicad_sym")(options "")(descr ""))
+)
