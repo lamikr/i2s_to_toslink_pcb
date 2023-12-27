@@ -73,6 +73,9 @@
     (property "Price" "" (at 36.83 25.146 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "QtyOrdered" "" (at 36.83 25.146 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "i2s_to_toslink_pcb"
         (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582/df1d69c3-7db5-40a1-b788-3bae77af6998"
@@ -101,6 +104,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Price" "" (at 24.892 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "QtyOrdered" "" (at 24.892 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -133,6 +139,9 @@
     (property "Price" "" (at 25.4 32.512 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "QtyOrdered" "" (at 25.4 32.512 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "i2s_to_toslink_pcb"
         (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582/df1d69c3-7db5-40a1-b788-3bae77af6998"
@@ -161,6 +170,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Price" "" (at 36.83 32.766 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "QtyOrdered" "" (at 36.83 32.766 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
