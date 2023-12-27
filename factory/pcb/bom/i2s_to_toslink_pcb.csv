@@ -4,7 +4,7 @@
 "C3","1uF","Capacitor_SMD:C_0402_1005Metric","~","Murata","GRM155R70J105KA12J","","","490-13339-1-ND","1"
 "C10, C11, C17, C18","16pF","Capacitor_SMD:C_0402_1005Metric","~","Murata","GJM1555C1H160GB01D","","","490-8081-1-ND","4"
 "C22, C23","0u1F","Capacitor_SMD:C_0603_1608Metric","~","Murata","GCJ188R71H104KA12D","","0.16","490-5798-1-ND","2"
-"D1","LED","LED_SMD:LED_0805_2012Metric","~","","","","","","1"
+"D1","LED","LED_SMD:LED_0805_2012Metric","~","QT Brightek","QBLP631-AG","","0.30","1516-1082-1-ND","1"
 "H1","TL","MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom","~","","","","","","1"
 "H2","TR","MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom","~","","","","","","1"
 "H3","BL","MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom","~","","","","","","1"
