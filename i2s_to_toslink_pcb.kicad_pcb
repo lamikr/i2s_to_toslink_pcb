@@ -1106,7 +1106,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ad5e269-5354-4342-a996-9e12c4aeeb41)
     )
-    (fp_text value "EXT_CLK_IN5" (at -4.318 10.922 -180) (layer "F.Fab")
+    (fp_text value "EXT_CLK_IN5" (at -4.318 6.464 -180) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7acd1f7-f1a8-48ec-8232-f1f157471143)
     )
@@ -4475,7 +4475,7 @@
 
   (gr_rect (start 20.828 20.32) (end 82.296 82.042)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 8afa580d-3ff6-4b84-b1e6-07709b891245))
-  (gr_text "I2S to TosLink" (at 27.178 22.606) (layer "F.Cu") (tstamp 5dfb8888-7feb-4398-9edc-497f4ae4edac)
+  (gr_text "I2S to TosLink v0.1" (at 27.178 22.606) (layer "F.Cu") (tstamp 5dfb8888-7feb-4398-9edc-497f4ae4edac)
     (effects (font (size 1.016 1.016) (thickness 0.2032) bold) (justify left bottom))
   )
   (gr_text "Copyright (C) 2024 Mika Laitio " (at 80.4 74.8 90) (layer "F.Cu") (tstamp c571aa3c-d0eb-4619-9875-dbc623ef47d3)

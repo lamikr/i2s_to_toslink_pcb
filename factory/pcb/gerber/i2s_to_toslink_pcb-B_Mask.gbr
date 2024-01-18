@@ -1,18 +1,18 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.11-1-dev-0f715223e9*%
-%TF.CreationDate,2024-01-18T09:46:45-08:00*%
+%TF.CreationDate,2024-01-18T09:51:02-08:00*%
 %TF.ProjectId,i2s_to_toslink_pcb,6932735f-746f-45f7-946f-736c696e6b5f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.11-1-dev-0f715223e9) date 2024-01-18 09:46:45*
+G04 Created by KiCad (PCBNEW 7.0.11-1-dev-0f715223e9) date 2024-01-18 09:51:02*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,3.500000*%
-%ADD11C,2.600000*%
+%ADD10C,2.600000*%
+%ADD11C,3.500000*%
 %ADD12R,1.700000X1.700000*%
 %ADD13O,1.700000X1.700000*%
 %ADD14R,1.000000X1.000000*%
