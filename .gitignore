@@ -3,4 +3,6 @@ i2s_to_toslink_pcb-backups
 *.lck
 *.backup
 _autosave*.kicad_pcb
+_autosave*.kicad_sch
 .~lock*
+\#auto_saved_files#

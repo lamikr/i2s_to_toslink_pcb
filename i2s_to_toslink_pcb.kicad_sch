@@ -1,106 +1,209 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d64b6b4a-9bae-4214-91d3-9beeedeca582)
-
-  (paper "A4")
-
-  (title_block
-    (title "I2S Audio to AES/EBU Optical Toslink")
-    (date "2023-12-26")
-    (rev "v0.1")
-    (company "Mika Laitio")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 26.67 22.86) (size 41.91 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 53d00c44-763a-440a-b1c8-8bb57ae5b74c)
-    (property "Sheetname" "external input" (at 26.67 22.1484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "external_connections.kicad_sch" (at 26.67 52.6546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "i2s_to_toslink_pcb"
-        (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 121.666 22.606) (size 39.37 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8703d6c7-bc20-42a5-97d3-e1e32dd9ce52)
-    (property "Sheetname" "clocks" (at 121.666 21.8944 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "clocks.kicad_sch" (at 121.666 51.1306 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "i2s_to_toslink_pcb"
-        (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 77.216 22.606) (size 39.37 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b556b917-e298-4f65-bb14-1be62415fc17)
-    (property "Sheetname" "mcu" (at 77.216 21.8944 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 77.216 52.4006 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "i2s_to_toslink_pcb"
-        (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 27.94 67.31) (size 42.545 28.575) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid df1d69c3-7db5-40a1-b788-3bae77af6998)
-    (property "Sheetname" "mounting holes" (at 27.94 66.5984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mounting_holes.kicad_sch" (at 27.94 96.4696 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "i2s_to_toslink_pcb"
-        (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 166.116 22.606) (size 39.37 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f24bdf0c-5f18-4463-bf42-48329a3b8b9d)
-    (property "Sheetname" "codec" (at 166.116 21.8944 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "codec.kicad_sch" (at 166.116 51.1306 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "i2s_to_toslink_pcb"
-        (path "/d64b6b4a-9bae-4214-91d3-9beeedeca582" (page "5"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d64b6b4a-9bae-4214-91d3-9beeedeca582")
+	(paper "A4")
+	(title_block
+		(title "I2S Audio to AES/EBU Optical Toslink")
+		(date "2023-12-26")
+		(rev "v0.1")
+		(company "Mika Laitio")
+	)
+	(lib_symbols)
+	(sheet
+		(at 72.39 22.86)
+		(size 41.91 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53d00c44-763a-440a-b1c8-8bb57ae5b74c")
+		(property "Sheetname" "external input"
+			(at 72.39 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external_connections.kicad_sch"
+			(at 72.39 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.666 22.606)
+		(size 39.37 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8703d6c7-bc20-42a5-97d3-e1e32dd9ce52")
+		(property "Sheetname" "clocks"
+			(at 121.666 21.8944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clocks.kicad_sch"
+			(at 121.666 51.1306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.686 22.606)
+		(size 39.37 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b556b917-e298-4f65-bb14-1be62415fc17")
+		(property "Sheetname" "atmega mcu"
+			(at 27.686 21.8944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 27.686 52.4006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 67.31)
+		(size 42.545 28.575)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df1d69c3-7db5-40a1-b788-3bae77af6998")
+		(property "Sheetname" "mounting holes"
+			(at 27.94 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mounting_holes.kicad_sch"
+			(at 27.94 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.116 22.606)
+		(size 39.37 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f24bdf0c-5f18-4463-bf42-48329a3b8b9d")
+		(property "Sheetname" "codec"
+			(at 166.116 21.8944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 166.116 51.1306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
