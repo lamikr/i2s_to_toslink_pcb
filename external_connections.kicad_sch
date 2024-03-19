@@ -1869,7 +1869,7 @@
 		(uuid "dc7254e8-26dc-4e12-b8c6-5915db983f73")
 	)
 	(junction
-		(at 200.66 27.94)
+		(at 190.5 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2371875-e1e9-42c1-901f-74c73f1a8bcf")
@@ -1966,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 200.66 27.94)
+			(xy 190.5 36.83) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1976,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 27.94) (xy 208.28 27.94)
+			(xy 190.5 27.94) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 156.21 40.64)
+			(xy 127 40.64) (xy 143.51 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2036,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 50.8) (xy 200.66 50.8)
+			(xy 196.85 50.8) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2086,7 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 53.34) (xy 194.31 53.34)
+			(xy 196.85 53.34) (xy 184.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 200.66 44.45)
+			(xy 190.5 50.8) (xy 190.5 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2196,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 156.21 48.26)
+			(xy 127 48.26) (xy 143.51 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 27.94) (xy 200.66 27.94)
+			(xy 184.15 27.94) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 36.83) (xy 194.31 27.94)
+			(xy 184.15 36.83) (xy 184.15 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 45.72) (xy 156.21 45.72)
+			(xy 127 45.72) (xy 143.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 194.31 44.45)
+			(xy 184.15 53.34) (xy 184.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 156.21 43.18)
+			(xy 127 43.18) (xy 143.51 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2564,7 @@
 	)
 	(text_box "UART Pull-up resistors"
 		(exclude_from_sim no)
-		(at 179.07 17.78 0)
+		(at 168.91 17.78 0)
 		(size 57.15 46.99)
 		(stroke
 			(width 0)
@@ -2584,7 +2584,7 @@
 	(text_box "FTDI Pins for ATmega"
 		(exclude_from_sim no)
 		(at 111.76 18.034 0)
-		(size 62.484 46.736)
+		(size 49.53 46.736)
 		(stroke
 			(width 0)
 			(type default)
@@ -2683,7 +2683,7 @@
 	)
 	(global_label "VCC_3V3"
 		(shape input)
-		(at 208.28 27.94 0)
+		(at 198.12 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2693,7 +2693,7 @@
 		)
 		(uuid "05ae72ff-331a-4143-bc2b-b5e7c876ea9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.369 27.94 0)
+			(at 209.209 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2705,7 @@
 	)
 	(global_label "MCU_RXD0"
 		(shape input)
-		(at 207.01 50.8 0)
+		(at 196.85 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2715,7 +2715,7 @@
 		)
 		(uuid "17f34d04-29ec-44f4-a0d9-73a1e6f3f280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.9737 50.8 0)
+			(at 209.8137 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2727,7 @@
 	)
 	(global_label "MCU_RXD0"
 		(shape input)
-		(at 156.21 43.18 0)
+		(at 143.51 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2737,7 +2737,7 @@
 		)
 		(uuid "1e8b39b0-27e0-44fc-9f5b-7d45a906dbc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1737 43.18 0)
+			(at 156.4737 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 	)
 	(global_label "MCU_TXD0"
 		(shape input)
-		(at 207.01 53.34 0)
+		(at 196.85 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2803,7 +2803,7 @@
 		)
 		(uuid "375520e5-75b8-4362-9729-832afc7bf7b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.6713 53.34 0)
+			(at 209.5113 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2815,7 @@
 	)
 	(global_label "MCU_TXD0"
 		(shape input)
-		(at 156.21 45.72 0)
+		(at 143.51 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2825,7 +2825,7 @@
 		)
 		(uuid "49b742e0-a465-4dd1-bc9b-d77805e6c940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8713 45.72 0)
+			(at 156.1713 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3035,7 @@
 	)
 	(global_label "VCC_3V3"
 		(shape input)
-		(at 156.21 40.64 0)
+		(at 143.51 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3045,7 +3045,7 @@
 		)
 		(uuid "eca8d212-487b-46d2-beca-10cb207dd75d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.299 40.64 0)
+			(at 154.599 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3057,7 @@
 	)
 	(global_label "MCU_RST"
 		(shape input)
-		(at 156.21 48.26 0)
+		(at 143.51 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3067,7 +3067,7 @@
 		)
 		(uuid "f50aa8ff-f8d4-41b7-8309-4205a7a5cf16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6618 48.26 0)
+			(at 154.9618 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 40.64 0)
+		(at 184.15 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3408,7 +3408,7 @@
 		(dnp no)
 		(uuid "373629f5-6083-413d-af56-ea198dc06383")
 		(property "Reference" "R5"
-			(at 192.278 43.688 90)
+			(at 182.118 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 192.278 40.64 90)
+			(at 182.118 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3426,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.532 40.64 90)
+			(at 182.372 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3453,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3462,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3471,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3480,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-070RL"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(property "SKU_DIGIKEY" "311-0.0LRCT-ND"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3498,7 @@
 			)
 		)
 		(property "QtyOrdered" "100"
-			(at 194.31 40.64 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 40.64 0)
+		(at 190.5 40.64 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3923,7 +3923,7 @@
 		(dnp no)
 		(uuid "77c1b441-fc4e-4f13-8829-0079e33184c8")
 		(property "Reference" "R4"
-			(at 198.628 41.148 90)
+			(at 188.468 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 198.628 38.608 90)
+			(at 188.468 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3941,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 198.882 40.64 90)
+			(at 188.722 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3959,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3995,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4004,7 @@
 			)
 		)
 		(property "SKU_DIGIKEY" "311-10.0KLRCT-ND"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4013,7 @@
 			)
 		)
 		(property "QtyOrdered" "100"
-			(at 200.66 40.64 0)
+			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
