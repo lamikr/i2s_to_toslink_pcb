@@ -580,7 +580,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "factory/pcb/gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

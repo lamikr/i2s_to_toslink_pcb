@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "I2S Audio to AES/EBU Optical Toslink")
-		(date "2023-12-26")
-		(rev "v0.1")
+		(date "2024-03-18")
+		(rev "v0.2")
 		(company "Mika Laitio")
 	)
 	(lib_symbols
@@ -2202,16 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 44.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bea4ec7-e75a-4ea5-945c-4a7450e60e24")
-	)
-	(wire
-		(pts
 			(xy 149.86 30.48) (xy 148.59 30.48)
 		)
 		(stroke
@@ -2222,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 58.42) (xy 35.56 60.96)
+			(xy 35.56 58.42) (xy 35.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2602,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 69.85) (xy 44.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89aed0d6-cf9e-45b1-8ab0-da5175960495")
+	)
+	(wire
+		(pts
 			(xy 74.93 68.58) (xy 81.28 68.58)
 		)
 		(stroke
@@ -2732,16 +2732,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 73.66) (xy 41.91 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f4cce6-06e4-4371-803a-42dbf0ee9f89")
-	)
-	(wire
-		(pts
 			(xy 132.08 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -2779,16 +2769,6 @@
 			(type default)
 		)
 		(uuid "c660fb3d-e7fc-47e9-9063-19df015976ed")
-	)
-	(wire
-		(pts
-			(xy 38.1 73.66) (xy 41.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80fa163-37a2-4080-b5fe-e60dcec01f0a")
 	)
 	(wire
 		(pts
@@ -3929,7 +3909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 60.96 0)
+		(at 35.56 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3937,7 +3917,7 @@
 		(dnp no)
 		(uuid "168503ec-c26e-4a37-974e-c71bf3da5c4e")
 		(property "Reference" "#PWR05"
-			(at 35.56 67.31 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.941 64.643 0)
+			(at 35.941 63.373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 60.96 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 60.96 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 60.96 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,16 +4866,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 38.1 73.66 90)
+		(at 35.56 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "776b4553-bd9f-4882-b1d5-8dba62c13ad4")
 		(property "Reference" "TP1"
-			(at 34.798 68.58 90)
+			(at 32.258 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4882,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 34.798 71.12 90)
+			(at 35.306 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4890,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 68.58 0)
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 68.58 0)
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4908,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 38.1 73.66 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4917,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 38.1 73.66 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4926,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 38.1 73.66 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4935,7 @@
 			)
 		)
 		(property "QtyOrdered" ""
-			(at 38.1 73.66 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

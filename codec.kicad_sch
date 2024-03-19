@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "I2S Audio to AES/EBU Optical Toslink")
-		(date "2023-12-26")
-		(rev "v0.1")
+		(date "2024-03-18")
+		(rev "v0.2")
 		(company "Mika Laitio")
 	)
 	(lib_symbols
@@ -2392,7 +2392,7 @@
 		)
 	)
 	(junction
-		(at 236.22 138.43)
+		(at 241.3 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14457f3d-58d6-4287-b76d-62194d75f591")
@@ -2500,7 +2500,7 @@
 		(uuid "ad285273-b388-44ba-b6bc-a4d6589c2b63")
 	)
 	(junction
-		(at 236.22 151.13)
+		(at 241.3 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9db81c3-cd90-4a85-b8fc-1d53893269e9")
@@ -2530,7 +2530,7 @@
 		(uuid "f3237256-d200-4f4c-b198-786ac1986f39")
 	)
 	(junction
-		(at 251.46 144.78)
+		(at 256.54 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc78da13-3605-4cf8-bcaa-f1006a331ec2")
@@ -2597,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 48.26) (xy 215.9 48.26)
+			(xy 215.9 48.26) (xy 218.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 151.13) (xy 243.84 151.13)
+			(xy 241.3 151.13) (xy 248.92 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 138.43) (xy 243.84 138.43)
+			(xy 241.3 138.43) (xy 248.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 138.43) (xy 236.22 140.97)
+			(xy 241.3 138.43) (xy 241.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2744,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "35c36c90-bba9-4481-975a-b3ee4c5c4571")
+	)
+	(wire
+		(pts
+			(xy 187.96 149.86) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c6985e-4cef-4398-ae9c-e7ce9fa9c687")
 	)
 	(wire
 		(pts
@@ -2927,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 138.43) (xy 251.46 144.78)
+			(xy 256.54 138.43) (xy 256.54 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 148.59) (xy 236.22 151.13)
+			(xy 241.3 148.59) (xy 241.3 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 105.41) (xy 238.76 105.41)
+			(xy 237.49 105.41) (xy 243.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 48.26) (xy 231.14 48.26)
+			(xy 231.14 48.26) (xy 233.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3217,6 +3227,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8d24cf-95ef-472c-9eea-1c618ca9a403")
+	)
+	(wire
+		(pts
 			(xy 133.35 55.88) (xy 138.43 55.88)
 		)
 		(stroke
@@ -3247,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 256.54 144.78)
+			(xy 256.54 144.78) (xy 261.62 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 151.13) (xy 236.22 151.13)
+			(xy 236.22 151.13) (xy 241.3 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 138.43) (xy 236.22 138.43)
+			(xy 236.22 138.43) (xy 241.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3497,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 52.07) (xy 222.25 54.61)
+			(xy 224.79 52.07) (xy 224.79 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3527,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 251.46 151.13)
+			(xy 256.54 144.78) (xy 256.54 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3635,6 +3655,25 @@
 		)
 		(uuid "fd0a9539-f1b0-4ab7-8c4b-a7816fac140f")
 	)
+	(text_box "MCU Interrupt Testpoint"
+		(exclude_from_sim no)
+		(at 173.99 138.43 0)
+		(size 41.91 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "46ed97fe-4033-4178-888e-8e2a14bdc2f0")
+	)
 	(text_box "Optical Toslink audio JACK"
 		(exclude_from_sim no)
 		(at 16.637 131.445 0)
@@ -3656,7 +3695,7 @@
 	)
 	(text_box "12mHZ crystal for codec"
 		(exclude_from_sim no)
-		(at 213.106 125.476 0)
+		(at 218.186 125.476 0)
 		(size 53.213 33.147)
 		(stroke
 			(width 0)
@@ -3713,7 +3752,7 @@
 	)
 	(text_box "Testpin for clkout"
 		(exclude_from_sim no)
-		(at 212.852 95.758 0)
+		(at 217.932 95.758 0)
 		(size 42.418 22.86)
 		(stroke
 			(width 0)
@@ -3823,6 +3862,28 @@
 			)
 		)
 	)
+	(global_label "MCU_INT0"
+		(shape input)
+		(at 187.96 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "046034c5-aa40-47b8-a263-371f8047e547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8429 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CODEC_GPO7"
 		(shape input)
 		(at 38.1 53.34 180)
@@ -3891,7 +3952,7 @@
 	)
 	(global_label "CODEC_CLKOUT"
 		(shape input)
-		(at 232.41 105.41 180)
+		(at 237.49 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3901,7 +3962,7 @@
 		)
 		(uuid "0d4a2573-b193-4f50-a8f3-b4be38efbab3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.971 105.41 0)
+			(at 220.051 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4062,7 @@
 	)
 	(global_label "EXTERNAL_IN_I2S_MCLK"
 		(shape input)
-		(at 231.14 48.26 0)
+		(at 233.68 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4011,7 +4072,7 @@
 		)
 		(uuid "3f121b13-7bc9-4fdf-931a-8c67a6f354bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1989 48.26 0)
+			(at 258.7389 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4106,7 @@
 	)
 	(global_label "CODEC_XOP"
 		(shape input)
-		(at 231.14 138.43 180)
+		(at 236.22 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4055,7 +4116,7 @@
 		)
 		(uuid "4a85cf87-e224-49ed-b408-82a9beebf088")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0877 138.43 0)
+			(at 222.1677 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4150,7 @@
 	)
 	(global_label "CLKGEN_OUT_I2S_MCLK"
 		(shape input)
-		(at 213.36 48.26 180)
+		(at 215.9 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4099,7 +4160,7 @@
 		)
 		(uuid "9bf6c050-8f9a-4625-91d9-d1832c28fcff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4825 48.26 0)
+			(at 191.0225 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4172,7 @@
 	)
 	(global_label "CODEC_XIN"
 		(shape input)
-		(at 231.14 151.13 180)
+		(at 236.22 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4121,12 +4182,34 @@
 		)
 		(uuid "9ea8b848-0734-4d07-a75b-60cda1bc2c15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.7529 151.13 0)
+			(at 222.8329 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CODEC_INT0"
+		(shape input)
+		(at 200.66 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0f7d2a8-5665-4e24-8766-80438c9bbfce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.0147 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4219,7 +4302,7 @@
 			)
 		)
 	)
-	(global_label "MCU_INT0"
+	(global_label "CODEC_INT0"
 		(shape input)
 		(at 38.1 48.26 180)
 		(fields_autoplaced yes)
@@ -4231,7 +4314,7 @@
 		)
 		(uuid "b5217dc4-795f-44a8-bfcf-02ef827c9728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.9829 48.26 0)
+			(at 23.7453 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4348,7 @@
 	)
 	(global_label "CODEC_IN_I2S_MCLK"
 		(shape input)
-		(at 222.25 54.61 270)
+		(at 224.79 54.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4275,7 +4358,7 @@
 		)
 		(uuid "c076a10b-a024-4c4b-aea3-3c5902a96a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 76.7661 90)
+			(at 224.79 76.7661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 144.78 90)
+		(at 261.62 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4805,7 +4888,7 @@
 		(fields_autoplaced yes)
 		(uuid "35bc3c38-9be9-4f86-a0b9-756d2026a5b6")
 		(property "Reference" "#PWR021"
-			(at 262.89 144.78 0)
+			(at 267.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 144.78 90)
+			(at 265.43 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 144.78 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 144.78 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 144.78 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5448,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at 222.25 48.26 0)
+		(at 224.79 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5374,7 +5457,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e52bbb2-64e3-47bf-a596-cbc2af113687")
 		(property "Reference" "JP1"
-			(at 222.25 41.91 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5465,7 @@
 			)
 		)
 		(property "Value" "MCLK_SEL"
-			(at 222.25 44.45 0)
+			(at 224.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5473,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5491,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5500,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5509,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5518,7 @@
 			)
 		)
 		(property "QtyOrdered" ""
-			(at 222.25 48.26 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5551,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5460bd8d-6800-493e-816a-58feb9a1d125")
 		(property "Reference" "J11"
@@ -5587,7 +5670,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 138.43 90)
+		(at 252.73 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5596,7 +5679,7 @@
 		(fields_autoplaced yes)
 		(uuid "5df9a2f8-5400-426c-99f3-4597e9995afb")
 		(property "Reference" "C17"
-			(at 247.65 130.81 90)
+			(at 252.73 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5687,7 @@
 			)
 		)
 		(property "Value" "16pF"
-			(at 247.65 133.35 90)
+			(at 252.73 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5695,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.46 137.4648 0)
+			(at 256.54 137.4648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5713,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5722,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5731,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5740,7 @@
 			)
 		)
 		(property "MFR" "Murata"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5749,7 @@
 			)
 		)
 		(property "MPN" "GJM1555C1H160GB01D"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5758,7 @@
 			)
 		)
 		(property "SKU_DIGIKEY" "490-8081-1-ND"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5767,7 @@
 			)
 		)
 		(property "QtyOrdered" "100"
-			(at 247.65 138.43 0)
+			(at 252.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5920,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6361d2c7-97ab-4a6a-9153-5c55982a7cc3")
 		(property "Reference" "J13"
@@ -6480,7 +6563,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 238.76 100.33 270)
+		(at 243.84 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6489,7 +6572,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6234c2f-9baa-4f78-bc66-496794dd1af4")
 		(property "Reference" "J17"
-			(at 240.03 99.695 90)
+			(at 245.11 99.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6581,7 @@
 			)
 		)
 		(property "Value" "C_CLKOUT"
-			(at 240.03 102.235 90)
+			(at 245.11 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6590,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6608,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6617,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6626,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6635,7 @@
 			)
 		)
 		(property "QtyOrdered" ""
-			(at 238.76 100.33 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6657,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 236.22 144.78 90)
+		(at 241.3 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6583,7 +6666,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa38e4bc-d413-418f-b62d-93c432828c94")
 		(property "Reference" "Y2"
-			(at 240.03 143.51 90)
+			(at 245.11 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6675,7 @@
 			)
 		)
 		(property "Value" "12M"
-			(at 240.03 146.05 90)
+			(at 245.11 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6684,7 @@
 			)
 		)
 		(property "Footprint" "lamikr_audio:XTAL_ABM7-12.000MHZ-D2Y-T"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6702,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +6711,7 @@
 			)
 		)
 		(property "SKU_DIGIKEY" "535-9836-1-ND"
-			(at 236.22 144.78 90)
+			(at 241.3 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6720,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6729,7 @@
 			)
 		)
 		(property "Price" "0.67"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6738,7 @@
 			)
 		)
 		(property "MFR" "Abracon LLC"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6747,7 @@
 			)
 		)
 		(property "MPN" "ABM7-12.000MHZ-D2Y-T"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6756,7 @@
 			)
 		)
 		(property "QtyOrdered" "10"
-			(at 236.22 144.78 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6781,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 151.13 90)
+		(at 252.73 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6707,7 +6790,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa52194e-e02e-44f6-9596-46737555bd9c")
 		(property "Reference" "C18"
-			(at 247.65 143.51 90)
+			(at 252.73 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6798,7 @@
 			)
 		)
 		(property "Value" "16pF"
-			(at 247.65 146.05 90)
+			(at 252.73 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.46 150.1648 0)
+			(at 256.54 150.1648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6824,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6833,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6842,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6851,7 @@
 			)
 		)
 		(property "MFR" "Murata"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6860,7 @@
 			)
 		)
 		(property "MPN" "GJM1555C1H160GB01D"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6869,7 @@
 			)
 		)
 		(property "SKU_DIGIKEY" "490-8081-1-ND"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6878,7 @@
 			)
 		)
 		(property "QtyOrdered" "100"
-			(at 247.65 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7362,7 @@
 		(fields_autoplaced yes)
 		(uuid "c634155c-4a44-462d-adaf-d7791b8adc33")
 		(property "Reference" "J16"
-			(at 175.26 109.855 90)
+			(at 175.26 109.8549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,8 +7370,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_RST"
-			(at 175.26 112.395 90)
+		(property "Value" "CRST"
+			(at 175.26 112.3949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,6 +7815,74 @@
 			(project "i2s_to_toslink_pcb"
 				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582/f24bdf0c-5f18-4463-bf42-48329a3b8b9d"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f85ea2-d8c3-4917-bb51-2803af75d9e7")
+		(property "Reference" "R14"
+			(at 194.31 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0k"
+			(at 194.31 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 194.31 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a00f36-2398-46fc-889c-3d3280d91a68")
+		)
+		(pin "2"
+			(uuid "a508bef2-1f8b-47fe-88e7-19ff9b9bc232")
+		)
+		(instances
+			(project "i2s_to_toslink_pcb"
+				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582/f24bdf0c-5f18-4463-bf42-48329a3b8b9d"
+					(reference "R14")
 					(unit 1)
 				)
 			)
