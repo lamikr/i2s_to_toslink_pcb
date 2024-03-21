@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.0452 114.3 0)
 			(effects
 				(font
@@ -4874,7 +4874,7 @@
 		(dnp no)
 		(uuid "776b4553-bd9f-4882-b1d5-8dba62c13ad4")
 		(property "Reference" "TP1"
-			(at 32.258 64.77 90)
+			(at 32.258 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 114.3 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 58.42 0)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 221.9452 35.56 0)
 			(effects
 				(font
@@ -6296,7 +6296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 67.818 90)
 			(effects
 				(font
