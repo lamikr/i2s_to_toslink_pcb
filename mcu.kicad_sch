@@ -3031,7 +3031,7 @@
 	(text_box "ATMega Power Led"
 		(exclude_from_sim no)
 		(at 172.72 54.61 0)
-		(size 44.45 22.86)
+		(size 44.45 26.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -3050,7 +3050,7 @@
 	(text_box "I2S Pull-ups"
 		(exclude_from_sim no)
 		(at 110.617 54.864 0)
-		(size 44.45 26.67)
+		(size 57.023 26.67)
 		(stroke
 			(width 0)
 			(type default)

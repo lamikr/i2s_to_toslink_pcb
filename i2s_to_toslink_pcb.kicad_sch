@@ -82,7 +82,7 @@
 		(instances
 			(project "i2s_to_toslink_pcb"
 				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -158,7 +158,7 @@
 		(instances
 			(project "i2s_to_toslink_pcb"
 				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -196,7 +196,7 @@
 		(instances
 			(project "i2s_to_toslink_pcb"
 				(path "/d64b6b4a-9bae-4214-91d3-9beeedeca582"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
