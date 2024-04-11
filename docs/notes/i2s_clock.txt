@@ -1,0 +1,45 @@
+Terms
+
+1) Bit Clock Line
+- 'Continuous Serial Clock' (SCK/SCLK) or 'Bit Clock' (BCLK)
+- BCLK = 2 * LRCLK * SAMPLE_WIDTH
+--> LRCLK = BCLK / (2 * SAMPLE_WIDTH)
+2) Word Clock Line
+- 'Word Select' (WS) or 'Left Right Clock' (LRCLK/LRCK) or 'Frame Sync' (FS)
+- LRCLK = MCLK / CONFIG_RATIO
+3) Master Clock
+- 'Master Clock' (MCK/MCLK)
+4) CONFIG_RATIO = MCLK / LRCLK
+--> MCLK = LRCLK * CONFIG_RATIO = WS * CONFIG_RATIO
+--> LRCLK = MCLK / CONFIG_RATIO
+- 32X:	LRCLK = MCLK / 32
+- 48X:	LRCLK = MCLK / 48
+- 64X:	LRCLK = MCLK / 64
+- 96X:	LRCLK = MCLK / 96
+- 128X:	LRCLK = MCLK / 128
+- 192X:	LRCLK = MCLK / 192
+- 256X:	LRCLK = MCLK / 256
+- 384X:	LRCLK = MCLK / 384
+- 512X:	LRCLK = MCLK / 512
+5) SAMPLE_WIDTH
+- 8 bit
+- 16 bit
+- 24 bit
+- 32 bit
+
+if sample_width=32 and config_ratio = 256...
+MCLK = LRCLK * CONFIG_RATIO = (SCK / (2 * SAMPLE_WIDTH)) * CONFIG_RATIO = SCK * CONFIG_RATIO / (2 * SAMPLE_WIDTH) = SCK * 4 = SCK * 256 / (2 * 32) = SCK * 4
+
+cdce906
+=======
+// Y0 used for MCLK gen signal
+// cdcd906 datasheet page 18
+// Default setting of divider P0 = 10, P1 = 20, P2 = 8, P3 = 9, P4 = 32, and P5 = 4
+// P2 used by default for Y0, Y1, Y2, Y3, Y4 and Y5
+// cdcd906 datasheet page 27
+// sample_freq_out = (sample_freq_in x N) / (M x P2) = sample_freq_in x 32 / (1 x 8) = sample_freq_in * 4
+
+
+
+
+SCK / (2 * SAMPLE_WIDTH) * CONFIG_RATIO = (2 * 16) * CONFIG_RATIO
