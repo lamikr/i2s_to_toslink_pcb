@@ -2249,6 +2249,12 @@
 		(uuid "6dc99069-193f-47d6-ac7f-8b680a34ca8e")
 	)
 	(junction
+		(at 38.1 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70c2d3d3-1323-4593-85d4-28021dce1fd6")
+	)
+	(junction
 		(at 64.77 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,6 +2688,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 161.29) (xy 38.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d95d4c-a859-4339-a122-2388b4c905e5")
+	)
+	(wire
+		(pts
 			(xy 124.46 171.45) (xy 124.46 170.18)
 		)
 		(stroke
@@ -2912,6 +2928,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 161.29) (xy 88.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c75231-f1ed-4093-9a50-32273b9d3d0e")
+	)
+	(wire
+		(pts
 			(xy 60.96 38.1) (xy 67.31 38.1)
 		)
 		(stroke
@@ -3019,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "8c17a904-bf48-4983-9853-b8155fedc048")
-	)
-	(wire
-		(pts
-			(xy 30.48 161.29) (xy 88.9 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ebc2262-9834-44f9-a206-0ae392fd9525")
 	)
 	(wire
 		(pts
@@ -3229,6 +3245,16 @@
 			(type default)
 		)
 		(uuid "c2738221-5ad2-4cd8-8209-6b53debf9f47")
+	)
+	(wire
+		(pts
+			(xy 38.1 161.29) (xy 38.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5515a80-a16a-409e-963d-47249b4b84dc")
 	)
 	(wire
 		(pts
@@ -3472,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 156.21) (xy 38.1 162.56)
+			(xy 38.1 156.21) (xy 38.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3587,7 @@
 	)
 	(text_box "Optical Toslink audio JACK"
 		(exclude_from_sim no)
-		(at 16.637 132.08 0)
+		(at 16.51 130.175 0)
 		(size 154.94 62.23)
 		(stroke
 			(width 0)
@@ -4720,7 +4746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 162.56 0)
+		(at 38.1 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4729,7 +4755,7 @@
 		(fields_autoplaced yes)
 		(uuid "12075495-52f5-43a9-8e39-8a1a69baf7b2")
 		(property "Reference" "#PWR023"
-			(at 38.1 168.91 0)
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 167.64 0)
+			(at 38.1 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 162.56 0)
+			(at 38.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 162.56 0)
+			(at 38.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 162.56 0)
+			(at 38.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
